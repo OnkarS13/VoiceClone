@@ -1,19 +1,3 @@
-# Retrieval-based Voice Conversion WebUI
-
-A user-friendly voice conversion (voice changer) framework based on VITS.
-
-## Introduction
-
-This repository has the following features:
-- Replaces input source features with training set features to prevent voice leakage.
-- Fast training even on relatively low-end GPUs.
-- Good results with a small amount of data (recommended at least 10 minutes of clean voice data).
-- Change voice characteristics through model fusion (using the `ckpt-merge` option).
-- Simple and easy-to-use web interface.
-- Can utilize the UVR5 model to separate vocals and accompaniment quickly.
-- Utilizes the state-of-the-art [RMVPE](#reference-projects) pitch extraction algorithm to address pitch detection issues.
-- Supports both Nvidia and AMD GPUs for acceleration.
-
 ## Environment Setup
 
 Please follow these instructions in a Python environment greater than 3.8:
