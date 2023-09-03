@@ -1,3 +1,9 @@
+The model is trained for the Shah Rukh Khan's voice.
+The 3 trained models are provided in the github.
+After opening the ipynb file, upload all the files to the colab and execute one-by-one
+After starting the web page, You can upload the the three pre-trained models in model inference section.
+Then, you can upload the audio file in wav format in which you want to convert the voice of Shah Rukh Khan
+
 ## Environment Setup
 
 Please follow these instructions in a Python environment greater than 3.8:
